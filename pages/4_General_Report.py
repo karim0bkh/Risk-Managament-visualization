@@ -71,12 +71,15 @@ if "uploaded_file1" in st.session_state and "uploaded_file" in st.session_state:
         x='Note1',
         x2='Note2',
         y='Risques',
-
-        color=alt.Color('Note1', legend=None),
+        color=alt.Color('legend:N', scale=alt.Scale(scheme='category10'), legend=alt.Legend(title='Legend')),
         tooltip=['Risques', 'Note1', 'Note2']
     ).properties(
         title='Comparison of Initial Score and Mitigation Score for each Risk'
     ).interactive()
+
+    bar_chart = bar_chart.transform_calculate(
+        legend='Initial : '+alt.datum.Note1 + '\n' +  ' (' + 'Mitigation : ' + alt.datum.Note2 + ')'
+    )
 
     st.altair_chart(bar_chart, use_container_width=True)
 
