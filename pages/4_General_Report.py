@@ -29,7 +29,7 @@ st.markdown(
 
 
 
-st.title('Comparison')
+st.title('General Report')
 st.sidebar.title("Risk Management Project 📈 Designed by: @Karim Ben Khaled")
 
 

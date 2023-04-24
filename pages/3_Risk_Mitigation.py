@@ -9,7 +9,7 @@ st.set_page_config(
     )
 
 
-st.title('Mitigation')
+st.title('Risk Mitigation')
 st.sidebar.title("Risk Management Project 📈 Designed by: @Karim Ben Khaled")
 
 if "uploaded_file1" in st.session_state:
