@@ -48,7 +48,7 @@ with c30:
     else:
         st.info(
             f"""
-                👆 Upload a .csv file first. Sample to try: [Risk.csv](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkEHC2_-EU93iL5T7q54tIA2fc4d3FIfC4xryA0MmedE_4BXxABM3-xVZ8yDNZK9YxpRANwAVYxngG/pub?output=xlsx)
+                👆 Upload a .csv file first. Sample to try: [Risk.csv](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkEHC2_-EU93iL5T7q54tIA2fc4d3FIfC4xryA0MmedE_4BXxABM3-xVZ8yDNZK9YxpRANwAVYxngG/pub?output=csv)
                 """
         )
 
@@ -133,7 +133,7 @@ with c30:
     else:
         st.info(
             f"""
-                👆 Upload a .csv file first. Sample to try: [Risk.csv](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkEHC2_-EU93iL5T7q54tIA2fc4d3FIfC4xryA0MmedE_4BXxABM3-xVZ8yDNZK9YxpRANwAVYxngG/pub?output=xlsx)
+                👆 Upload a .csv file first. Sample to try: [Risk.csv](https://docs.google.com/spreadsheets/d/e/2PACX-1vSkEHC2_-EU93iL5T7q54tIA2fc4d3FIfC4xryA0MmedE_4BXxABM3-xVZ8yDNZK9YxpRANwAVYxngG/pub?output=csv)
                 """
         )
 
